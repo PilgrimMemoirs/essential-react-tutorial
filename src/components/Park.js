@@ -3,13 +3,12 @@ import Review from './Review'
 import Trail from './Trail'
 
 
-function Park() {
+function Park({name, description}) {
   return (
-    <div className="Park">
-      <h1> I'm a Park! </h1>
-      <Review />
-      <Trail />
-    </div>
+    <section className="Park">
+      <h1> I'm { name } </h1>
+      <p>About: { description }</p>
+    </section>
   );
 }
 
