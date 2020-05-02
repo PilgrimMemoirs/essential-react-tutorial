@@ -1,6 +1,38 @@
 [
   {
     "name": "Rainier",
-    "description": "It's a park for a volcano."
+    "description": "It's a park for a volcano.",
+    "trails": [
+      {
+        "name": "Wonderland",
+        "length": 20.5,
+        "gain": 1200,
+        "reviews": []
+      }
+    ],
+    "reviews": [
+      {
+        "stars": 5,
+        "text": "It's wonderful."
+      }
+    ]
+  },
+  {
+    "name": "Olympic",
+    "description": "It's a park made popular by vampires and werewolves.",
+    "trails": [
+      {
+        "name": "Hurrican Ridge",
+        "length": 6,
+        "gain": 800,
+        "reviews": []
+      }
+    ],
+    "reviews": [
+      {
+        "stars": 5,
+        "text": "It's pretty chill."
+      }
+    ]
   }
 ]

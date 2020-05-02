@@ -9,6 +9,12 @@ function App() {
       <Park
         name={data[0]["name"]}
         description={data[0]["description"]}
+        reviews={data[0]["reviews"]}
+      />
+      <Park
+        name={data[1]["name"]}
+        description={data[1]["description"]}
+        reviews={data[1]["reviews"]}
       />
     </div>
   );
