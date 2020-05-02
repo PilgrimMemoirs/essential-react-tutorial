@@ -1,16 +1,13 @@
 import React from 'react';
 import Review from './Review'
-import Trail from './Trail'
 
-
-function Park() {
+function Trail() {
   return (
     <div className="Park">
-      <h1> I'm a Park! </h1>
+      <h2> I'm a Trail! </h2>
       <Review />
-      <Trail />
     </div>
   );
 }
 
-export default Park;
+export default Trail;
