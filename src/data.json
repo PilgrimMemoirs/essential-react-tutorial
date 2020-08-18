@@ -1,0 +1,40 @@
+[
+  {
+    "name": "Yellowstone",
+    "trails": [
+      {"name": "Mammoth Hot Springs", "difficulty": "easy", "reviews": [{"stars": 5, "text": "Unlike any other hike I've ever been on. So much to see!"}]},
+      {"name": "North Rim", "difficulty": "moderate", "reviews": []},
+      {"name": "Avalanche Peak Trail", "difficulty": "hard", "reviews": [{"stars": 5, "text": "Tough hike, worth it for these views!"}]},
+      {"name": "Fairy Falls", "difficulty": "easy", "reviews": []}
+    ],
+    "reviews": [
+      {"stars": 5, "text": "Favorite park!"},
+      {"stars": 4, "text": "Second favorite park!"},
+      {"stars": 5, "text": "Stunning!"}
+    ]
+  },
+  {
+    "name": "Central",
+    "trails": [
+      {"name": "North Woods", "difficulty": "moderate", "reviews": [{"stars": 4, "text": "Great workout."}, {"stars": 3, "text": "Good for a quick run."}]},
+      {"name": "Outer Loop", "difficulty": "easy", "reviews": [{"stars": 4, "text": "Nice for running."}]}
+    ],
+    "reviews": [
+      {"stars": 5, "text": "Could spend all day here!"},
+      {"stars": 4, "text": "Great place to relax."},
+      {"stars": 3, "text": "It's fine."}
+    ]
+  },
+  {
+    "name": "Stanley",
+    "trails": [
+      {"name": "Lost Lagoon", "difficulty": "easy", "reviews": [{"stars": 2, "text": "Didn't get lost. Super easy to navigate."}]},
+      {"name": "Seawall Path", "difficulty": "easy", "reviews": []},
+      {"name": "Lover's Walk", "difficulty": "easy", "reviews": [{"stars": 5, "text": "Lovely!"}]}
+    ],
+    "reviews": [
+      {"stars": 5, "text": "Absolutely gorgeous!"},
+      {"stars": 5, "text": "Must see!"}
+    ]
+  }
+]

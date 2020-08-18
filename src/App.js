@@ -1,12 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
 import Park from './components/Park'
 import './App.css';
+import parkData from './data.json';
 
 function App() {
   return (
     <div className="App">
-      <Park />
+      {parkData.map(park => (
+        <Park
+          name={park.name}
+          trails={park.trails}
+          reviews={park.reviews}
+        />
+      ))};
     </div>
   );
 }
